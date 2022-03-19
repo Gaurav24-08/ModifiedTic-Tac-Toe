@@ -1,0 +1,40 @@
+.game-page{
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+.player-ui, .game-div{
+  width: 33%;
+  height: 400px;
+  position: relative;
+  /* border: 1px solid black; */
+}
+
+
+
+.Tic-Tac-Toe {
+  text-align: center;
+  width: 100%;
+}
+
+.Game-logo {
+  animation: Game-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Game-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Game-intro {
+  font-size: large;
+}
+
+@keyframes Game-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
