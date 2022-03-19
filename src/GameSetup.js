@@ -64,6 +64,12 @@ class GameSetup extends Component {
       alert("Player " + Number(winner+1) + " won the game");
       window.location.reload();
     }
+
+    else if(this.state.numbersUsed.size == 9){
+      alert("Match Drawn");
+      window.location.reload();
+    }
+
   };
 
   render() {
